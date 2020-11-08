@@ -1,0 +1,158 @@
+body {
+		 background-image: url(../imagem/fundos.jpg);
+		 background-repeat: repeat;
+		 background-attachment: fixed;
+
+}
+/**Formataçãod da largura do corpo*/
+
+div#interface {
+	width: 900px;
+	height: 1950px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;/*Valores iguais coloca-se apenas uma vez*/
+
+}
+
+div#imgtopesquer img{
+	width: 120px; /*largura*/
+	height: 150px;/*altura	*/
+	margin-top: -250px;	
+}
+/*ajuste da imagem na direita*/
+header#cabecalho img#icone {
+	width: 150px; /*largura*/
+	height: 150px;/*altura*/
+	float: right;	
+	left: 900px;
+	margin-top:-150px;
+}
+header#cabecalho h1 {
+	font-family:  'Arial', sans-serif;
+	font-size: 30px;
+	color:#606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);	
+	margin-bottom: 0px; 
+	text-align: center;
+	margin-top: 60px;
+}
+header#cabecalho h2{
+	font-family: 'Arial', sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	margin-top: 30px;
+	text-align: center;
+}
+/*bloco para divisoes em linha na tela*/
+header#cabecalho {
+	border-bottom: 3px #606060 solid;
+	height: 130px;
+	/*background: url("") no-repeat 0px 90px;
+	display: block;*/
+}
+div#linha2{
+	border-bottom: 3px #606060 solid;
+	height: 65px;
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top:180px;
+	left: 37%;
+/*left->esquerda// right direita*/
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color:#000000;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+
+}
+section#esquerda img{
+	
+	width: 150px;
+	margin-top: 60px;
+	margin-left: 150px;
+	float: left;
+	padding: 5px;
+}
+section#esquerda div{
+	width: 150px;
+	margin-top: 200px;
+	margin-left: -600px;
+	float: left;
+	padding: 5px;
+}
+
+section#esquerda p{
+	text-indent:;
+	text-align: justify;
+	width: 430px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 100px;
+	float: left;
+	padding: 0px;
+
+}
+
+div#video{
+	width: 500px;
+	height: 300px;
+	margin-top:20%;
+	margin-left: 80px;
+}
+
+div#conteudo{
+	margin-top: 300px;
+	text-align: center;
+}
+s
+div #corda{
+	height: 60px;
+	width: 900px;
+	text-align: justify;
+}
+
+div #sopro{
+	height: 60px;
+	width: 900px;
+	text-align: justify;
+}
+aside#lateral div{
+	margin-top: 100px;
+}
+aside#lateral img{
+	margin-left: 60px;
+	margin-top: 0px;	
+}
+footer#rodape p{
+	
+	border-top: 3px solid #606060;
+	/*height: 100px;*/
+	width: 900px;
+	bottom: -280px;
+	text-align: center;
+	position:right:200px;
+	
+}
